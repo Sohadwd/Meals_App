@@ -14,7 +14,8 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
     "react-native-gesture-handler": "^1.5.1",
     "react-native-web": "^0.11.4",
-    "react-navigation": "^3.11.1"
+    "react-navigation": "^3.11.1",
+    "react-navigation-header-buttons": "^3.0.4"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.1.1"
