@@ -17,4 +17,7 @@ const styles = StyleSheet.create({
   }
 });
 
+FavoritesScreen.navigationOptions = {
+  headerTitle: 'Your Favorites'
+};
 export default FavoritesScreen;
