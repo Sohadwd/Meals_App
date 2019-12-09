@@ -35,6 +35,9 @@ const FiltersScreen = props => {
   }, [isGlutenFree, isLactoseFree, isVegan, isVegetarian]);
 
   useEffect(() => {
+    console.log('effect');
+    console.log('saveFilters', saveFilters());
+
     props.navigation.setParams({
       save: saveFilters
     });
